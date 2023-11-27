@@ -21,7 +21,7 @@ function App() {
               fontSize={"lg"}
             >
               <Text>Photos</Text>
-              <Text>About</Text>
+              <Text>Hello</Text>
               <Text>Services</Text>
               <Text>Contact</Text>
               <Text>Qn's</Text>
