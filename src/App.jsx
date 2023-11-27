@@ -20,7 +20,7 @@ function App() {
               alignItems="center"
               fontSize={"lg"}
             >
-              <Text>Home</Text>
+              <Text>Photos</Text>
               <Text>About</Text>
               <Text>Services</Text>
               <Text>Contact</Text>
