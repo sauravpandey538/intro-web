@@ -22,9 +22,8 @@ function App() {
             >
               <Text>Photos</Text>
               <Text>Hello</Text>
-              <Text>Services</Text>
-              <Text>Contact</Text>
-              <Text>Qn's</Text>
+              <Text>Guys</Text>
+              <Text>E-mail</Text>
             </Box>
           </Flex>
           <Spacer />
