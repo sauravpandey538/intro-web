@@ -2,6 +2,7 @@ import { Box, Stack, Flex, Spacer, Button } from "@chakra-ui/react";
 import { Input, IconButton } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
 import { LinkIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 function Heading() {
   return (
@@ -14,7 +15,7 @@ function Heading() {
       borderRadius={"20px"}
     >
       <Flex maxW="1200px" mx={"auto"}>
-        <Box maxW="fit-content" H={"100%"} fontSize={"3xl"}>
+        <Box as={Link} to="/" maxW="fit-content" H={"100%"} fontSize={"3xl"}>
           <LinkIcon />
         </Box>
         <Spacer />
@@ -26,16 +27,23 @@ function Heading() {
             alignItems="center"
             fontSize={("lg", "md")}
           >
-            <Button colorScheme="teal" variant="link">
-              Hobbies
-            </Button>
-            <Button colorScheme="teal" variant="link">
+            <Link to={"/hobbies"}>
+              <Button colorScheme="teal" variant="link">
+                Hobbies
+              </Button>
+            </Link>
+            <Button as={Link} to="/circle" colorScheme="teal" variant="link">
               Circle
             </Button>
-            <Button colorScheme="teal" variant="link">
+            <Button as={Link} to="/gallery" colorScheme="teal" variant="link">
               Gallery
             </Button>
-            <Button colorScheme="teal" variant="link">
+            <Button
+              as={Link}
+              to="/information"
+              colorScheme="teal"
+              variant="link"
+            >
               Information
             </Button>
           </Box>

@@ -20,33 +20,31 @@ function Footer() {
         textAlign="center"
         boxShadow={"0px 3px 2px 3px rgba(0,0,0,0.2)"}
       >
-        <Flex gap={5} ml={400} colorScheme="green" textAlign={"center"}>
+        <Flex gap={5} colorScheme="green" textAlign={"center"}>
           <Avatar
             name="Saurav Pandey"
             src="https://sancharkarmi.com/uploads/news/images/273474014Punya-gautam.jpeg"
             boxSize={"80px"}
           />
-          <Box>
-            <Heading
-              px={15}
-              textShadow={"2px 2px 2px rgba(0,0,0,0.3)"}
-              textTransform="uppercase"
-              textColor={"green.600"}
-              letterSpacing={"0.2em"}
-            >
-              Saurav Pandey
-            </Heading>
-            <Text
-              fontSize="xl"
-              color="green.500"
-              letterSpacing={"0.1em"}
-              flex={1}
-              alignItems={"center"}
-              justifyContent={"center"}
-            >
-              @Developer of this Website
-            </Text>
-          </Box>
+
+          <Text
+            textAlign={"center"}
+            textTransform="uppercase"
+            textColor={"green.600"}
+            letterSpacing={"0.2em"}
+          >
+            Code with Me
+          </Text>
+          <Text
+            fontSize="xl"
+            color="green.500"
+            letterSpacing={"0.1em"}
+            flex={1}
+            alignItems={"center"}
+            justifyContent={"center"}
+          >
+            @Developer of this Website
+          </Text>
         </Flex>
         <br />
         <Text
@@ -56,21 +54,7 @@ function Footer() {
           textAlign="left"
           lineHeight={2}
           letterSpacing={"1px"}
-        >
-          In Chakra UI, you can capitalize text using the textTransform prop
-          available in most text-based components like Text, Heading, or Button.
-          You can set the textTransform prop to uppercase to capitalize the
-          text: In Chakra UI, you can capitalize text using the textTransform
-          prop available in most text-based components like Text, Heading, or
-          Button. You can set the textTransform prop to uppercase to capitalize
-          the text:In Chakra UI, you can capitalize text using the textTransform
-          prop available in most text-based components like Text, Heading, or
-          Button. You can set the textTransform prop to uppercase to capitalize
-          the text:In Chakra UI, you can capitalize text using the textTransform
-          prop available in most text-based components like Text, Heading, or
-          Button. You can set the textTransform prop to uppercase to capitalize
-          the text:
-        </Text>
+        ></Text>
         <Box width={"100%"} minHeight={"fit-content"}>
           <Stack
             my={"20px"}
@@ -80,16 +64,8 @@ function Footer() {
             textAlign={"center"}
             justifyContent={"center"}
           >
-            <Button leftIcon={<EmailIcon />} colorScheme="teal" variant="solid">
-              Email
-            </Button>
-            <Button
-              rightIcon={<ArrowForwardIcon />}
-              colorScheme="teal"
-              variant="outline"
-            >
-              Call me
-            </Button>
+            <Button leftIcon={<EmailIcon />} />
+            <Button rightIcon={<ArrowForwardIcon />} />
           </Stack>
         </Box>
       </Container>

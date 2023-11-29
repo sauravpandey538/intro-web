@@ -19,11 +19,14 @@ import {
   DrawerContent,
   DrawerCloseButton,
   Input,
+  useToast,
 } from "@chakra-ui/react";
 
 function Drawerr() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
+  const toast = useToast();
+
   return (
     <>
       <Card H={("md", "100%")} my={"60px"} maxW={"md"} mx={"auto"}>
@@ -82,7 +85,20 @@ function Drawerr() {
                 >
                   Cancel
                 </Button>
-                <Button colorScheme="teal" width={"160px"}>
+                <Button
+                  colorScheme="teal"
+                  width={"160px"}
+                  onClick={() => {
+                    toast({
+                      title: "Request Send",
+                      description: "Wait for Saurav's response",
+                      status: "success",
+                      duration: 1000,
+                      isClosable: true,
+                    });
+                    document.getElementsByTagName("input")[0].value = "";
+                  }}
+                >
                   Request
                 </Button>
               </DrawerFooter>
