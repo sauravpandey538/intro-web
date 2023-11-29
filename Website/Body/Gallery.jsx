@@ -58,6 +58,69 @@ function Gallery() {
             borderRadius={"20px "}
           />
         </GridItem>
+        <GridItem boxSize={"270px"}>
+          <Image
+            src="https://wallpapers-clan.com/wp-content/uploads/2022/07/sad-anime-pfp-1.jpg"
+            minH="270px"
+            minW="100%"
+            borderRadius={"20px "}
+            mt={"80px"}
+          />
+        </GridItem>
+        <GridItem boxSize={"270px"}>
+          <Image
+            src="https://static.displate.com/857x1200/displate/2022-12-26/4a51708d44cef91373bcbd82ab751016_26175bda4f8200ca4bf5b5dba161cbd0.jpg"
+            minH="100%"
+            minW="100%"
+            borderRadius={"20px "}
+            mt={"80px"}
+          />
+        </GridItem>
+        <GridItem boxSize={"270px"}>
+          <Image
+            src="https://static.displate.com/280x392/displate/2022-12-26/a6fdc22806d5957b86112b98f14b8ed6_1e88ee5be4a3d5e1b062e604ee1092e4.jpg"
+            minH="100%"
+            minW="100%"
+            borderRadius={"20px "}
+            mt={"203px"}
+          />
+        </GridItem>
+        <GridItem boxSize={"270px"}>
+          <Image
+            src="https://img.freepik.com/premium-photo/anime-scene-man-standing-water-with-backpack-generative-ai_958098-35666.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699142400&semt=ais"
+            minH="100%"
+            minW="100%"
+            borderRadius={"20px "}
+            mt={"127px"}
+          />
+        </GridItem>
+        <GridItem boxSize={"270px"}>
+          <Image
+            src="https://cdn.hero.page/pfp/7fb009f4-c6fd-4470-940e-fb6ae0b83366-lament-in-moonlight-sad-anime-pfp-male-2.png"
+            minH="100%"
+            minW="100%"
+            borderRadius={"20px "}
+            mt={"65px"}
+          />
+        </GridItem>
+        <GridItem boxSize={"270px"}>
+          <Image
+            src="https://i2.wp.com/stickerly.pstatic.net/sticker_pack/Qb7Ly1H6M9gH1UcZDlMeg/J33H6H/45/050ac689-05af-47f7-9597-e9b76e7eed85.png"
+            minH="100%"
+            minW="100%"
+            borderRadius={"20px "}
+            mt={"80px"}
+          />
+        </GridItem>
+        <GridItem boxSize={"270px"}>
+          <Image
+            src="https://steamuserimages-a.akamaihd.net/ugc/791992474793549171/B36D6FF44F0E71BFADB417A5D1C618E9585010F0/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+            minH="100%"
+            minW="100%"
+            borderRadius={"20px "}
+            mt={"190px"}
+          />
+        </GridItem>
       </Grid>
     </>
   );
