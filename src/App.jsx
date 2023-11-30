@@ -5,6 +5,7 @@ import Hobbies from "../Website/Body/Hobbies";
 import Drawerr from "../Website/Body/Drawer";
 import Gallery from "../Website/Body/Gallery";
 import Info from "../Website/Body/Info";
+import Projects from "../Website/Body/Projects";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Heading />
+        <Projects />
       </>
     ),
   },

@@ -33,6 +33,10 @@ import { IoMdEye } from "react-icons/io";
 
 export default function Hobbies() {
   const initialFocusRef = React.useRef();
+  const handleButtonClick = () => {
+    // Redirect to the desired URL when the button is clicked
+    window.location.href = "https://youtu.be/sLykke8q2ls?si=tQwlEGG0ibqNavt5";
+  };
 
   return (
     <Container
@@ -92,11 +96,8 @@ export default function Hobbies() {
                   src="https://play-lh.googleusercontent.com/ffGx9o8K6RI7DJuADt95JiyhhU74jqbvm1h8QRb6yoI67bL17Q23xVmZw79N-u9URHA"
                 />
               </AvatarGroup>
-              <Text size={"lg"}>
+              <Text size={"lg"} as={"b"}>
                 Click on the desired icon to download the game
-              </Text>
-              <Text color={"red"} borderBottom={"2px solid red"} pt={"5px"}>
-                Later, link will be added with respect to the avatar if clicked!
               </Text>
             </TabPanel>
 
@@ -154,7 +155,11 @@ export default function Hobbies() {
                       >
                         <Box fontSize="sm">Earphone Recomended</Box>
                         <ButtonGroup size="sm" gap={"1px"}>
-                          <Button colorScheme="green" leftIcon={<ViewIcon />}>
+                          <Button
+                            colorScheme="green"
+                            leftIcon={<ViewIcon />}
+                            onClick={handleButtonClick}
+                          >
                             Play Music
                           </Button>
                           <Button
