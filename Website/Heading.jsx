@@ -32,8 +32,8 @@ function Heading() {
                 Hobbies
               </Button>
             </Link>
-            <Button as={Link} to="/circle" colorScheme="teal" variant="link">
-              Circle
+            <Button as={Link} to="/project" colorScheme="teal" variant="link">
+              Projects
             </Button>
             <Button as={Link} to="/gallery" colorScheme="teal" variant="link">
               Gallery
