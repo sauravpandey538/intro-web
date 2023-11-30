@@ -10,7 +10,6 @@ export default function Projects() {
         minH={"100vh"}
       >
         <Text fontSize={"4xl"}>
-          {" "}
           All my project will be uploaded soon here...
         </Text>
       </Card>

@@ -36,7 +36,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/circle",
+    path: "/project",
     element: (
       <>
         <Heading />
