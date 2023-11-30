@@ -16,7 +16,7 @@ function Heading() {
     >
       <Flex maxW="1200px" mx={"auto"}>
         <Box as={Link} to="/" maxW="fit-content" H={"100%"} fontSize={"3xl"}>
-          <IoIosHome />
+          <IoIosHome onClick={() => (document.title = "Home")} />
         </Box>
         <Spacer />
         <Flex maxW="fit-content" h="auto" alignItems={"center"}>
