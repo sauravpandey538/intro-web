@@ -1,10 +1,15 @@
-import { Box, Stack, Flex, Spacer, Button } from "@chakra-ui/react";
+import { useState } from "react";
+import { Box, Stack, Flex, Spacer, Button, Switch } from "@chakra-ui/react";
 import { Input, IconButton } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
 import { IoIosHome } from "react-icons/io";
 
 function Heading() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  const handleToggle = () => {
+    setIsDarkMode(!isDarkMode);
+  };
   return (
     <Box
       py="4"
@@ -72,6 +77,19 @@ function Heading() {
             aria-label="Search"
             icon={<SearchIcon />}
             color={"teal"}
+          />
+        </Stack>
+        <Stack
+          textAlign={"center"}
+          justifyContent={"center"}
+          flex={1}
+          py={"auto"}
+        >
+          <Switch
+            size="lg"
+            onChange={handleToggle}
+            isChecked={isDarkMode}
+            fontSize={"25px"}
           />
         </Stack>
       </Flex>

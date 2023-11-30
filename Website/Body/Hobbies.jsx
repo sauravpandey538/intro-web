@@ -37,6 +37,18 @@ export default function Hobbies() {
     // Redirect to the desired URL when the button is clicked
     window.location.href = "https://youtu.be/sLykke8q2ls?si=tQwlEGG0ibqNavt5";
   };
+  const handleButtonClickTitliaan = () => {
+    // Redirect to the desired URL when the button is clicked
+    window.location.href = "https://youtu.be/YPohR_9v6HA?si=OLDDrkaaCe5WKijD";
+  };
+  const handleButtonClickchampa = () => {
+    // Redirect to the desired URL when the button is clicked
+    window.location.href = "https://youtu.be/_cW8X9FE4iM?si=42wnZamNG8e8e5QY";
+  };
+  const handleButtonClickjpn = () => {
+    // Redirect to the desired URL when the button is clicked
+    window.location.href = "https://youtu.be/a2GujJZfXpg?si=S5QbrDd4TMJIaFsj";
+  };
 
   return (
     <Container
@@ -213,7 +225,11 @@ export default function Hobbies() {
                       >
                         <Box fontSize="sm">Earphone Recomended</Box>
                         <ButtonGroup size="sm" gap={"1px"}>
-                          <Button colorScheme="green" leftIcon={<ViewIcon />}>
+                          <Button
+                            colorScheme="green"
+                            leftIcon={<ViewIcon />}
+                            onClick={handleButtonClickTitliaan}
+                          >
                             Play Music
                           </Button>
                           <Button
@@ -267,7 +283,11 @@ export default function Hobbies() {
                       >
                         <Box fontSize="sm">Earphone Recomended</Box>
                         <ButtonGroup size="sm" gap={"1px"}>
-                          <Button colorScheme="green" leftIcon={<ViewIcon />}>
+                          <Button
+                            colorScheme="green"
+                            leftIcon={<ViewIcon />}
+                            onClick={handleButtonClickchampa}
+                          >
                             Play Music
                           </Button>
                           <Button
@@ -321,7 +341,11 @@ export default function Hobbies() {
                       >
                         <Box fontSize="sm">Earphone Recomended</Box>
                         <ButtonGroup size="sm" gap={"1px"}>
-                          <Button colorScheme="green" leftIcon={<ViewIcon />}>
+                          <Button
+                            colorScheme="green"
+                            leftIcon={<ViewIcon />}
+                            onClick={handleButtonClickjpn}
+                          >
                             Play Music
                           </Button>
                           <Button
