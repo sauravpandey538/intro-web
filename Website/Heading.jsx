@@ -1,8 +1,8 @@
 import { Box, Stack, Flex, Spacer, Button } from "@chakra-ui/react";
 import { Input, IconButton } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
-import { LinkIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
+import { IoIosHome } from "react-icons/io";
 
 function Heading() {
   return (
@@ -16,7 +16,7 @@ function Heading() {
     >
       <Flex maxW="1200px" mx={"auto"}>
         <Box as={Link} to="/" maxW="fit-content" H={"100%"} fontSize={"3xl"}>
-          <LinkIcon />
+          <IoIosHome />
         </Box>
         <Spacer />
         <Flex maxW="fit-content" h="auto" alignItems={"center"}>
@@ -28,14 +28,30 @@ function Heading() {
             fontSize={("lg", "md")}
           >
             <Link to={"/hobbies"}>
-              <Button colorScheme="teal" variant="link">
+              <Button
+                colorScheme="teal"
+                variant="link"
+                onClick={() => (document.title = "Saurav's Hobby")}
+              >
                 Hobbies
               </Button>
             </Link>
-            <Button as={Link} to="/project" colorScheme="teal" variant="link">
+            <Button
+              as={Link}
+              to="/project"
+              colorScheme="teal"
+              variant="link"
+              onClick={() => (document.title = "Saurav's Projects")}
+            >
               Projects
             </Button>
-            <Button as={Link} to="/gallery" colorScheme="teal" variant="link">
+            <Button
+              as={Link}
+              to="/gallery"
+              colorScheme="teal"
+              variant="link"
+              onClick={() => (document.title = "Saurav's Gallery")}
+            >
               Gallery
             </Button>
             <Button
@@ -43,6 +59,7 @@ function Heading() {
               to="/information"
               colorScheme="teal"
               variant="link"
+              onClick={() => (document.title = "Saurav's Bio-Data")}
             >
               Information
             </Button>
