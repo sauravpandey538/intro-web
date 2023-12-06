@@ -24,8 +24,8 @@ function Info() {
       >
         <Avatar
           size="xl"
-          name="Saurav Pandey"
-          src="https://scontent.fsif1-1.fna.fbcdn.net/v/t39.30808-6/330464009_872876217312271_1303980131065337717_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=Bc3yvtEZmCcAX9in8lq&_nc_ht=scontent.fsif1-1.fna&oh=00_AfATZQh0THE73WmI9nqISR2bZg7h-sdQa6znrrwqEWLANQ&oe=656B61B7"
+          name="Unknown picture"
+          src="https://st.depositphotos.com/1006542/3304/i/450/depositphotos_33040007-Funny-man-with-watermelon-helmet-and-googles.jpg"
         />
 
         <Text fontSize="xl" fontWeight="bold">
