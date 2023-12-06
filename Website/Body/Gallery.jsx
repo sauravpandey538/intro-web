@@ -5,7 +5,7 @@ function Gallery() {
       <Grid templateColumns="repeat(5, 1fr)" gap={2} margin={"20px 10px"}>
         <GridItem boxSize={"auto"}>
           <Image
-            src="https://scontent.fsif1-1.fna.fbcdn.net/v/t1.6435-9/130268439_827293474731495_7261285712297176224_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7a1959&_nc_ohc=hYyPlcd_dPUAX8qXhu_&_nc_oc=AQnv1DL-VFIN0XoUj0zRuQ73F3bcixGhGBSONpq2XRugnffhKXMBvQ3sCHKErYHDO9Xqa6KuoC7iZ8JIDjk2ytSG&_nc_ht=scontent.fsif1-1.fna&oh=00_AfBjcTULThOoFkLv86g2KpbtH3E5UKaHjA-nLcbw89X18Q&oe=658E8412"
+            src="https://prompti.ai/wp-content/uploads/2023/07/pcboi2.png"
             alt="Friend's Image"
             minW="100%"
             minH="100%"
@@ -14,7 +14,7 @@ function Gallery() {
         </GridItem>
         <GridItem boxSize={"270px"}>
           <Image
-            src="https://scontent.fsif1-1.fna.fbcdn.net/v/t39.30808-6/278616101_1126876188106554_7809452989418886803_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9c7eae&_nc_ohc=qPFnexlD0NYAX_j1E77&_nc_ht=scontent.fsif1-1.fna&oh=00_AfBLfaG93Wlq5QHYW-S_0BEv4et43LOMWZZ9YiUqyxaH0A&oe=656C0759"
+            src="https://static.vecteezy.com/system/resources/previews/016/746/979/original/freelancer-software-developer-programmer-coder-illustrator-vector.jpg"
             alt="Friend's Image"
             minH="100%"
             minW="100%"
@@ -23,7 +23,7 @@ function Gallery() {
         </GridItem>
         <GridItem boxSize={"270px"}>
           <Image
-            src="https://scontent.fsif1-1.fna.fbcdn.net/v/t39.30808-6/288190309_1167613704032802_2769479340891559732_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=xrX9M2VaEt4AX9ZyU6e&_nc_ht=scontent.fsif1-1.fna&oh=00_AfAW9hs-zX7Mcd3laxtCTyZmO9iQAalH0ms8FAgbVABgqw&oe=656CE589"
+            src="https://codequotient.com/blog/wp-content/uploads/2020/12/6-Reasons-Why-Having-a-Professional-Coder-Certification-Is-Crucial.jpg"
             alt="Friend's Image"
             minH="100%"
             minW="100%"
