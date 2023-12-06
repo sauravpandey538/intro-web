@@ -33,8 +33,8 @@ function Drawerr() {
           <Image
             borderRadius="full"
             boxSize="150px"
-            src="https://scontent.fsif1-1.fna.fbcdn.net/v/t39.30808-6/337669895_1140049323359009_1860035976428952782_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RrOEiv2UEswAX_aPTDR&_nc_ht=scontent.fsif1-1.fna&oh=00_AfBb_bt-CMik9yvViBcQ5IvsSLawiV1JZijIfzqtEE1YWw&oe=656A889D"
-            alt="Saurav Pandey"
+            src="https://i1.sndcdn.com/avatars-000400033800-h6tvts-t500x500.jpg"
+            alt="Unknown Source"
           />
 
           <Box margin={"auto 20px"}>
