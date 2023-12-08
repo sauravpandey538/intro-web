@@ -47,7 +47,7 @@ function Drawerr() {
         <CardBody>
           <Text>
             My name is Saurav Pandey. I am here to create my private website version.
-            And here it's my private website and it is on pending.So, please wait for some moment11
+            And here it's my private website and it is on pending.So, please wait for some moment!!
           </Text>
         </CardBody>
         <CardFooter>
