@@ -46,9 +46,8 @@ function Drawerr() {
         </CardHeader>
         <CardBody>
           <Text>
-            With Chakra UI, I wanted to sync the speed of development with the
-            speed of design. I wanted the developer to be just as excited as the
-            designer to create a screen.
+            My name is Saurav Pandey. I am here to create my private website version.
+            And here it's my private website and it is on pending.So, please wait for some moment11
           </Text>
         </CardBody>
         <CardFooter>
